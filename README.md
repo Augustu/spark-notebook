@@ -37,7 +37,7 @@ pip install pyspark
 
 # install scala jupyter kernel
 pip install spylon-kernel
-python -m spylon_kernel install
+python -m spylon_kernel install --user
 
 # show if kernel installed
 jupyter kernelspec list
